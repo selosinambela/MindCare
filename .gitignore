@@ -1,0 +1,18 @@
+# Node.js / Backend
+node_modules/
+.env
+
+# Flutter / Dart / App
+app/build/
+app/.dart_tool/
+app/.packages
+app/.pub-cache/
+app/.pub/
+app/android/.gradle
+app/android/local.properties
+app/ios/Pods/
+app/ios/.symlinks/
+
+# OS generated files
+.DS_Store
+Thumbs.db

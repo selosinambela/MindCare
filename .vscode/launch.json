@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Backend (Node.js)",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/backend",
+      "program": "${workspaceFolder}/backend/server.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Frontend (Flutter)",
+      "type": "dart",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/app",
+      "program": "${workspaceFolder}/app/lib/main.dart"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "MindCare (Backend + Frontend)",
+      "configurations": [
+        "Backend (Node.js)",
+        "Frontend (Flutter)"
+      ]
+    }
+  ]
+}
